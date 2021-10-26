@@ -20,7 +20,6 @@ class SettingsPreferences {
   }
 
   void setGender(Gender? value) {
-    print(value);
     _sharedPreferences.setInt('gender', value!.index);
   }
 
